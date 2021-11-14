@@ -2,3 +2,4 @@ Flask
 Flask-HTTPAuth
 Flask-Login
 Flask-Session
+pyotp
