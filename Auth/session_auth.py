@@ -3,7 +3,7 @@ from flask import (Flask, render_template, request, redirect, session)
 app = Flask(__name__)
 app.secret_key = "THIS-IS-A-SECRET"
 
-user = {"username": "abc", "password": "xyz"}
+user = {"username": "admin", "password": "password"}
 
 
 @app.route('/login', methods=['POST', 'GET'])
@@ -35,4 +35,4 @@ def logout():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5001, debug=True)

@@ -1,0 +1,19 @@
+POST /login HTTP/1.1
+Host: localhost:5000
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:94.0) Gecko/20100101 Firefox/94.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+Origin: http://localhost:5000
+DNT: 1
+Connection: close
+Cookie: Webstorm-7e32e129=bcb8ac24-4686-42e3-b0b4-2cc1d3dea8d3; Idea-b7e18864=a8924abb-b8ec-4af6-a220-366ad59bb5e2; BEEFHOOK=XxFJZuyQhes4SdEf81ImhwHU6BQhVolLeoy9aoJl9ZD1EBmdq9vmm5NvdlgJspCy7HJAGeOc70fdNaUW; Idea-5f5a1b4a=03b4fdab-de6b-40ed-9ae7-d37559841906; Pycharm-59c9c191=5c73c412-9f30-483b-a9d9-9e05ada1d70e
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+
+username=admin&password=password
